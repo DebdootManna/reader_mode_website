@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article-content {
+  @apply text-gray-800 leading-relaxed;
+}
+
+.article-content img {
+  @apply max-w-full h-auto my-8 rounded-lg;
+}
+
+.article-content p {
+  @apply mb-6;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  @apply font-bold mt-8 mb-4;
+}
+
+.article-content a {
+  @apply text-blue-600 hover:text-blue-800 underline;
+}
+
+.article-content ul,
+.article-content ol {
+  @apply my-6 pl-6;
+}
+
+.article-content li {
+  @apply mb-2;
+}
+
+.article-content blockquote {
+  @apply border-l-4 border-gray-300 pl-4 my-6 italic;
+}
